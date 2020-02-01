@@ -7,9 +7,6 @@
     min-height: 330px;
     margin: 30px auto;
   }
-  .form__inner{
-    background-image: none;
-  }
   .news__inner{
     display: block;
   }
@@ -56,35 +53,18 @@
     display: block;
   }
   .services__title-box,
-  .form__title-box,
   .news__title-box{
     padding-left: 0;
     text-align: center;
     margin: 0 auto 30px;
   }
   .services__title-box:before,
-  .form__title-box:before,
   .news__title-box:before{
     display: none;
   }
   .services__btn,
   .news__btn{
     text-align: center;
-  }
-  .form__box-inner{
-    display: block;
-  }
-  .form__box-left{
-    max-width: 100%;
-  }
-  .form__box-right{
-    max-width: 100%;
-  }
-  .form__box-inner .jq-selectbox__select{
-    margin-bottom: 10px;
-  }
-  .form{
-    padding-bottom: 25px;
   }
   .advantages__inner{
     display: block;
@@ -138,6 +118,12 @@
     min-height: 375px;
     margin: 30px auto;
   }
+  .content h2{
+    font-size: 30px;
+  }
+  .content h3{
+    font-size: 24px;
+  }
 }
 @media (max-width: 540px){
   .news__slider{
@@ -166,6 +152,15 @@
   .slider__text{
     font-size: 16px;
   }
+  .content h2{
+    font-size: 20px;
+  }
+  .content h3{
+    font-size: 17px;
+  }
+  .content p{
+    font-size: 15px;
+  }
 }
 @media (max-width: 400px){
   .header__btn:before{
@@ -180,9 +175,6 @@
     padding-right: 30px;
   }
 }
-
-
-
 @media (min-width: 700px){
   .menu ul{
     display: block !important;

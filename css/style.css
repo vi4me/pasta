@@ -565,7 +565,7 @@ header{
   left: 0;
   width: 100%;
   height: 100%;
- /* background: #e02bff;*/
+  /*background: #e02bff;*/
   transform-origin: right;
   transition: 0.5s; 
 }
@@ -593,7 +593,7 @@ header{
   top: 0;
   left: 0;
   width: 100%;
-  height: 150%;
+  height: 100%;
   /*background: #ffeb3b;*/
   transform-origin: left;
   transition: 0.5s; 
